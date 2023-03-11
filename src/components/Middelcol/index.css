@@ -1,0 +1,14 @@
+.middel {
+    width: 352px;
+    background-color: aqua;
+}
+
+.middel-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 352px;
+    height: 56px;
+
+}
