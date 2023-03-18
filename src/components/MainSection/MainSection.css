@@ -1,0 +1,12 @@
+.main-section {
+    height: calc(100% - 92px);
+    display: flex;
+}
+
+.left {
+    width: 214px;
+}
+
+.center {
+    width: 352px;
+}
