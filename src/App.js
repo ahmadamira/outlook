@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Middelcol from './components/Middelcol';
+import "./App.css";
+import MainSection from "./components/MainSection/MainSection";
 
 function App() {
   return (
     <div className="App">
-      <Middelcol />
+      <div></div>
+      <div></div>
+      <MainSection />
     </div>
   );
 }
