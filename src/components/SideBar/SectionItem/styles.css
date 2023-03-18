@@ -1,0 +1,7 @@
+.section-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 80px;
+    width: 150px;
+}
