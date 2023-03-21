@@ -1,0 +1,11 @@
+.icn{
+
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    opacity: .6;
+}
+
+.icn:nth-child(){
+    color: RGB(0, 90, 158);
+}

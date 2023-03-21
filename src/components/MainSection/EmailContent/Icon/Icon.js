@@ -1,7 +1,9 @@
 import React from "react";
+import './Icon.css'
 
-const Icon = () => {
-  return <i class="fa-solid fa-reply"></i>;
+
+const Icon = ({icn}) => {
+  return <span className="icn"><i class={icn}></i></span>;
 };
 
 export default Icon;

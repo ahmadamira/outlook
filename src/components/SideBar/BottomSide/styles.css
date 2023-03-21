@@ -1,0 +1,11 @@
+.Bottom-Icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+   
+       
+}
+
+/* .Bottom-Icon:nth-child(1){
+    color: RGB(0, 90, 158);
+} */
