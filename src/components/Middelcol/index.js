@@ -1,21 +1,26 @@
 import React from 'react'
+import Icon from '../MainSection/EmailContent/Icon/Icon';
 import "./index.css";
+import Middelcolhead from './Middelcolhead';
+import Middelitem from './Middelitem';
+
 
 const Middelcol = () => {
     return (
         <div>
-            <div className="middel">
-                <div className="middel-header">
-                    <div className="middel-header1">
-                        <img
-                            src="img/icon clock.jpg"
-                            class="article-image"
-                        />
-                        <p>Inbox</p>
-                    </div>
+            <Middelcolhead />
+            <Middelitem />
+            <Middelitem />
+            <Middelitem />
+            <p className='section'>April</p>
+            <Middelitem />
+            <p className='section'>Older</p>
+            <Middelitem />
+            <Middelitem />
+            <Middelitem />
+            <Middelitem />
+            <Middelitem />
 
-                </div>
-            </div>
         </div>
     )
 }
