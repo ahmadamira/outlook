@@ -2,10 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center ;
+    padding: 0 20px;
+    padding-bottom: 16px;
    
        
 }
 
-/* .Bottom-Icon:nth-child(1){
-    color: RGB(0, 90, 158);
-} */

@@ -1,11 +1,7 @@
 .top-side{
-    /* display: flex;  */
     padding-top: 23px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 
-    /* flex-direction: column; */
 }
 
-.icn:nth-child(5){
-    color: RGB(0, 90, 158);
-}
+ 

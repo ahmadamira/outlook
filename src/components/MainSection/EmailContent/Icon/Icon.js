@@ -3,7 +3,7 @@ import './Icon.css'
 
 
 const Icon = ({icn}) => {
-  return <span className="icn"><i class={icn}></i></span>;
+  return <i class={icn}></i>
 };
 
 export default Icon;

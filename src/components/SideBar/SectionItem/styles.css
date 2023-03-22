@@ -2,13 +2,13 @@
     display: flex;
     align-items: center;
     width: 150px;
-    /* margin-bottom: 23px; */
     color: rgba(50,49,48,1);
     font-size: 14px;
     font-weight: 400;
     height: 40px;
     width: 213px;
     width: 100%;
+    padding: 0 20px;
 }
 
 .label{
@@ -21,13 +21,15 @@
 .section-item:nth-child(3){
     color: RGB(0, 90, 158);
     background-color: RGB(199, 224, 244);
- padding: 0;
+    padding: 0 20px;
  
 }
 
 .section-item:nth-child(1){
     margin-bottom: 27px;
 }
+
+
 
 
 

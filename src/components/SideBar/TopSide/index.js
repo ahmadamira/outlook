@@ -1,5 +1,4 @@
 import React from 'react'
-// import { data } from '../BottomSide/data'
 import SectionItem from '../SectionItem'
 import './styles.css'
 import { datatop } from './datatop'

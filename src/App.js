@@ -1,6 +1,6 @@
 import "./App.css";
 import MainSection from "./components/MainSection/MainSection";
-import { IconName } from "react-icons/fa";
+
 
 function App() {
   return (
