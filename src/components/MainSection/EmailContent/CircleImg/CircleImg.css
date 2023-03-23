@@ -2,5 +2,9 @@
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background: #8E562E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 17px;
 }

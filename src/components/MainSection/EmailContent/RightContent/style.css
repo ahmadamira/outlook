@@ -1,0 +1,17 @@
+.content .right-content i {
+    font-size: 16px;
+    color: #0178D4;
+    opacity: 1;
+    font-weight: 900;
+}
+
+.right-content {
+    position: relative;
+}
+
+.content .right-content i:nth-child(2) {
+    position: absolute;
+    left: 39px;
+    top: 3px;
+    font-size: 5px;
+}

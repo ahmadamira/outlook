@@ -1,11 +1,11 @@
 import React from "react";
-
 import EmailAddress from "./EmailAddress/EmailAddress";
 import EmailDate from "./EmailDate/EmailDate";
 import RightContent from "./RightContent/RightContent";
 import "./EmailContent.css";
 import CircleImg from "./CircleImg/CircleImg";
 import From from "./From/From";
+import { data, nameImg } from "./data";
 
 const EmailContent = () => {
   return (
@@ -15,7 +15,7 @@ const EmailContent = () => {
       </div>
       <div className="content">
         <div className="left-content">
-          <CircleImg />
+          <CircleImg {...nameImg} />
           <div className="email-address">
             <EmailAddress />
             <EmailDate />
@@ -23,7 +23,9 @@ const EmailContent = () => {
           </div>
         </div>
         <div className="right-content">
-          <RightContent />
+          {data.map((item) => (
+            <RightContent {...item} />
+          ))}
         </div>
       </div>
     </div>
