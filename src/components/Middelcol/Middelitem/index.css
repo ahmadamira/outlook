@@ -22,10 +22,13 @@
 
 .middelitem {
     position: relative;
+    padding: 10px;
     display: flex;
     width: 332px;
     height: 81px;
     flex-direction: row;
+    background-color: white;
+    border: 1px, #F3F2F1 solid;
 }
 
 .icon {
@@ -39,4 +42,9 @@
 .desc {
     position: relative;
     margin-left: 18px;
+}
+
+.sepe {
+    position: relative;
+
 }
