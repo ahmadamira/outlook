@@ -1,16 +1,23 @@
-import React from 'react'
+import React, { Children } from 'react'
 import CircleImg from '../../MainSection/EmailContent/CircleImg/CircleImg'
 import "./index.css";
-function Middelitem() {
+function Middelitem({ title, icon, description, children }) {
     return (
-        <div className='middelitem'>
-            <div className='icon'>
-                <CircleImg />
+        <div>
+
+            <div className='middelitem'>
+                <div className='icon'>
+                    {icon}
+                </div>
+                <div className='desc'>
+                    <p class="title"> {title}</p>
+                    <p className='description'>{description}</p>
+                </div>
             </div>
-            <div className='desc'>
-                <p class="title"> Lorem Ipsum</p>
-                <p className='description'>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusalo…</p>
+            <div className='sepe'>
+                {children}
             </div>
+
         </div>
     )
 }

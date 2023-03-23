@@ -10,7 +10,7 @@ const Middelcolhead = () => {
                 <div className="middel-header">
 
                     <div className="middel-header1">
-                        <Icon />
+                        <Icon icn={"bi bi-arrow-counterclockwise"} />
                         <p className='text'>Inbox</p>
                         <Icon />
                     </div>
