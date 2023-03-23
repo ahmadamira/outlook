@@ -1,12 +1,12 @@
 import React from "react";
 import Icon from "../Icon/Icon";
+import "./style.css";
 
-const RightContent = () => {
+const RightContent = ({ isIcn, icn }) => {
   return (
     <>
-      {[1, 2, 3].map(() => {
-        return <Icon />;
-      })}
+      {isIcn && <Icon icn={isIcn} />}
+      <Icon icn={icn} />
     </>
   );
 };
